@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Podkova", serif;
+}
+
+header{
+    background-color: rgb(142, 179, 166);
+    text-align: center;
+}
+
+
+footer{
+    background-color: rgb(187, 89, 89);
+    padding: 20px 50px
+}
+
+
+
+.about{
+    background-color: beige;
+    padding: 20px 50px;
+    
+}
+
+.about1{
+    background-color: rgb(135, 202, 119);
+    padding: 20px 50px;
+    
+}
+
+.articles{
+    background-color: rgb(67, 150, 103);
+    color: springgreen;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;   
+}
+
+.avatar{
+    display: block;
+    margin: 10px auto;
+    height: 10em;
+    border-radius: 75%;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 2.5em;
+}
+
+.list{
+    margin-left: 50px;
+    font-size: 1.5em;
+}
+
+nav{
+    padding: 10px 50px;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu2{
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(61, 245, 245);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.list li:nth-child(2n) {
+    background-color: seagreen;
+}
+
+.articles h2::after {
+    content: "*";
+    margin-left: 20px;
+    color: springgreen;
+    font-size: 15px;
+}
+
+.articles h2::before {
+    content: "*";
+    margin-right: 18px;
+    color: springgreen;
+    font-size: 15px;
+}
+
+.ul1{
+    font-size: 36px;
+    list-style-type: square;
+    font-weight:bold ;
+}
+
+.ul2{
+    font-size: 24px;
+    list-style-type: square;
+    margin-left: 2em;
+}
+
+.ul3{
+    font-size: 22px;
+    list-style-type: square;
+    margin-left: 4em;
+}
+
+.alim{
+    padding-left: 20px;
+    width: 75px;
+    margin-left: 100px auto;
+
+}
+
+.clo{
+    color:rgb(131, 80, 179);
+    text-align: center;
+    font-size: 50px;
+}
